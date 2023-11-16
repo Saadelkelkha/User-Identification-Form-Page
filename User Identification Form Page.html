@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Page title -->
+    <h1 align="center"><b>Please Identify Yourself</b></h1>
+    
+    <!-- Form for user identification -->
+    <form method="post" align="center">
+        <!-- Input field for the username with a label -->
+        <label for="prenom">Enter your username:</label>
+        <input type="text" name="prenom" id="prenom" maxlength="20" required><br>
+        
+        <!-- Input field for the password with a label -->
+        <label for="pass">Enter your password:</label>
+        <input type="password" name="pass" id="pass" required><br>
+        
+        <!-- Dropdown for user role with a label -->
+        <label for="chiox">You are logged in as:</label>
+        <select id="m" name="m">
+            <option id="t" name="t" value="User">User</option>
+            <option value="Administrator">Administrator</option>
+        </select><br>
+        
+        <!-- Submit button to confirm identification -->
+        <input type="submit" value="OK">
+    </form>
+</body>
+</html>
